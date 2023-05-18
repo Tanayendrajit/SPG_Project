@@ -3,21 +3,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  body{
-    background-color: #4674c9;
     font-family: "Poppins", sans-serif;
   }
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: #f3c69c;
+    height: 100vh;
+    overflow: hidden;
+  }
   .wrapper{
-    background-color: #fff;
     width: 500px;
+    height: 600px;
     padding: 25px;
     margin: 25px auto 0;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    background: rgb(239, 238, 236);
+    border-radius: 25px;
+    box-shadow: 10px 10px 15px rgba(120, 59, 49, 0.195);
   }
   .wrapper h2{
-    color: #1119b3;
+    color: #ea862a;
     font-size: 24px;
     padding: 10px;
     margin-bottom: 20px;
@@ -26,7 +31,7 @@
   }
   h4{
     padding-bottom: 5px;
-    color: #1119b3;
+    color: #ea862a;
   }
   .input-group{
     margin-bottom: 8px;
@@ -53,10 +58,10 @@
     color: #333;
   }
   .name:focus{
-    -webkit-box-shadow:0 0 2px 1px #041348eb;
-    -moz-box-shadow:0 0 2px 1px #041348eb;
-    box-shadow: 0 0 2px 1px #041348eb;
-    border: 1px solid #1119b3;
+    -webkit-box-shadow:0 0 2px 1px #db7d25;
+    -moz-box-shadow:0 0 2px 1px #db7d25;
+    box-shadow: 0 0 2px 1px #db7d25;
+    border: 1px solid #ea862a;
   }
   .input-box .icon{
     width: 48px;
@@ -77,7 +82,7 @@
     border-right: none;
   }
   .name:focus + .icon{
-    background-color: #1119b3;
+    background-color: #ea862a;
     color: #fff;
     border-right: 1px solid #1119b31;
     border: none;
@@ -105,7 +110,7 @@
     border-bottom-right-radius: 3px;
   }
   .radio:checked + label{
-    background-color: #1119b3;
+    background-color: #ea862a;
     color: #fff;
     transition: 0.5s;
   }
@@ -123,22 +128,21 @@
     transition: all 0.2s ease;
   }
   .input-box select:focus{
-    background-color: #1119b3;
+    background-color: #ea862a;
     color: #fff;
     text-align: center;
   }
   button{
     width: 100%;
     background: transparent;
-    border: none;
-    background: #1119b3;
+    border: 1px solid;
+    border-radius: 25px;
+    background: #ea862a;
     color: #fff;
     padding: 15px;
-    border-radius: 4px;
     font-size: 16px;
-    transition: all 0.35s ease;
   }
   button:hover{
-    cursor: pointer;
-    background: #041348eb;
+    border-color: #db7d25;
+    transition: .2s;
   }

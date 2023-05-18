@@ -1,0 +1,300 @@
+/* general rule for the headings and texts */
+h1, h3, p {
+    text-align: center;
+}
+
+/* the customizations which will apply to the entire "Home Page" html file */
+body {
+    background-image: url("home bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 6000px 5000px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+
+/* FIRST SECTION OF THE HOME PAGE */
+
+
+
+
+/* for the main content of the page */
+.home {
+    width: 70%;
+    background-color: #ff9933;
+    margin-left: auto;
+    margin-right: auto;
+    /*padding-top: 20px;*/
+    /*padding-bottom: 20px;*/
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    font-family: "Ubuntu";
+}
+
+/* project title and modifications */
+h1 {
+    font-family: "IBM Plex Mono";
+    font-size: 80px;
+    /*margin-top: 0px;*/
+    margin-bottom: 0px;
+}
+
+/* project simple description and modifications */
+.project-info {
+    font-family: "IBM Plex Mono";
+    font-size: 32px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+
+/* project description element */
+.project-info p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* for the "Get Started" area */
+.get-started {
+    text-align: center;
+    /*padding-bottom: 20px;*/
+    /*margin-top: 10px;*/
+    /*margin-bottom: 10px;*/
+}
+
+/* for the "Get Started" button */
+.get-started button {
+    font-family: "IBM Plex Mono";
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 15px;
+    background-color: black;
+    color: #ff9933;
+    /*border: 5px;*/
+    border-color: #ff9933;
+}
+
+/* animation for cursor on button */
+.get-started button:hover {
+    font-family: "IBM Plex Mono";
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 15px;
+    background-color: transparent;
+    color: black;
+    /*border: 5px;*/
+    border-color: black;
+    cursor: pointer;
+}
+
+/* for the "Scroll Down" area */
+.scroll-down {
+    font-family: "IBM Plex Mono";
+    font-size: 24px;
+    /*padding-left: 20px;*/
+    /*padding-right: 20px;*/
+    margin-top: 85px;
+}
+
+/* for the "Scroll Down" elements */
+.scroll-down p {
+    display: inline-block;
+}
+
+/* for the "Scroll Down" icon */
+.iconleft {
+    width: 15%;
+    text-align: right;
+}
+
+/* for the "Scroll Down" icon */
+.iconright {
+    width: 15%;
+    text-align: left;
+}
+
+/* for cropping the icon */
+.fit-img {
+    width: 30px;
+    height: 20px;
+    background-color: transparent;
+    object-fit: fill;
+    object-position: bottom center;
+}
+
+/* for the "Scroll Down" text */
+.icon-text {
+    width: 70%;
+    text-align: center;
+    /*padding-left: 5px;*/
+    /*padding-right: 5px;*/
+    /*text-align: right;*/
+}
+
+
+
+
+/* ABOUT SECTION OF THE HOME PAGE */
+
+
+
+
+/* for the sub heading for "About" */
+.about {
+    width: 70%;
+    background-color: #ff9933;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    font-family: "IBM Plex Mono";
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/* black underlines to design content */
+hr {
+    height: 2px;
+    background-color: black;
+    border-width: 0px;
+}
+
+/* for the content under "About" */
+.underabout {
+    font-family: "Ubuntu";
+    font-size: 20px;
+    padding: 10px;
+    /*display: flex;*/
+}
+
+/* image for "About" */
+.image {
+    width: 100%;
+    text-align: center;
+}
+
+/* image tweaks */
+.fit-image {
+    width: 180px;
+    height: 180px;
+    background-color: black;
+    object-fit: contain;
+    object-position: center center;
+    border-radius: 15px;
+}
+
+/* text for "About" */
+.info {
+    text-align: center;
+    /*padding-left: 5px;*/
+    /*padding-right: 5px;*/
+}
+
+
+
+
+/* CONTACT SECTION OF THE HOME PAGE */
+
+
+
+
+/* for the sub heading for "Contact Us" */
+.contact {
+    width: 70%;
+    background-color: #ff9933;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-family: "IBM Plex Mono";
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px
+}
+
+/* for the content under sub heading "Contact Us" */
+.undercon {
+    font-family: "Ubuntu";
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* for the email buttons */
+.undercon button {
+    font-family: "Ubuntu";
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: #ff9933;
+    /*border: 5px;*/
+    border-color: #ff9933;
+    width: 320px;
+}
+
+/* animation for cursor on button */
+.undercon button:hover {
+    font-family: "Ubuntu";
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: black;
+    /*border: 5px;*/
+    border-color: black;
+    width: 320px;
+    cursor: pointer;
+}
+
+
+
+
+/* LAST SECTION OF THE HOME PAGE */
+
+
+
+
+/* for the bottom of the page */
+.github {
+    background-color: black;
+    color: white;
+    font-family: "Ubuntu";
+    font-size: 18px;
+    padding: 20px;
+    /*border-radius: 15px;*/
+}
+
+/* for links */
+.github a {
+    color: white;
+    text-decoration: none;
+}
+
+/* for hover links */
+.github a:hover {
+    color: #ff9933;
+    text-decoration: none;
+}
